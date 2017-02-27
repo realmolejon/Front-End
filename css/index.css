@@ -1,5 +1,6 @@
 body {
-    background-color: #ECD87F;
+    color: white;
+    background-color: #ECD87F;background-image: url(https://www.seoclerk.com/pics/want10687-14TZRq1388844023.jpg);
 }
 header{
     background: #170A1A;
@@ -14,6 +15,7 @@ header.headertop {
     height: 80px;
     padding-left: 5px;
     padding-right: 5px;
+
 }
 header.headerleft {
     height: 50px;
@@ -100,6 +102,7 @@ nav.nav1 {
 nav.navtop {
     margin-top: -10px;
     height: 50px;
+    background-color: #1F7273;
 }
 article.article1{
     margin-top: 10px;
@@ -121,8 +124,6 @@ aside {
     width: 35%;
     height: 85px;
     margin-top: 10px;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 #searchbox {
     background-color: #eaf8fc;
@@ -139,33 +140,12 @@ aside {
     overflow: hidden; /* Clear floats */
     float: left;
 }
-ul.leftnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    width: 100%;
-    background-color: #f1f1f1;
-    font-family: "Trebuchet MS";
-}
-
-li a {
-    display: block;
-    color: #000;
-    padding: 6.9px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-}
 
 ul.ultop {
     list-style-type: none;
     margin-top: 15px;
     padding: 0;
-    background-color: #333;
+    background-color: #1F7273;
     font-family: "Trebuchet MS";
 }
 ul.ultop li {
@@ -183,4 +163,41 @@ ul.ultop li a {
 /* Change the link color to #111 (black) on hover */
 ul.ultop li a:hover {
     background-color: #555;
+}
+
+ul.leftnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    background-color: #1F7273;
+    font-family: "Trebuchet MS";
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 6.9px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.newScrollBar {
+    scrollbar-3dlight-color: #4FBDDD;
+    scrollbar-arrow-color: #EEE1AE;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-face-color: #A0CCE0;
+    scrollbar-highlight-color: #F8F2DC;
+    scrollbar-shadow-color: #176F99;
+    scrollbar-track-color: #fa978f;
+
+    overflow: scroll;
+    width: 100%;
+    height: 83px;
+    border: 1px solid #cccccc;
 }
