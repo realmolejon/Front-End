@@ -1,5 +1,6 @@
 body {
     color: white;
+    font-family: "Trebuchet MS";
     background-color: #ECD87F;background-image: url(https://www.seoclerk.com/pics/want10687-14TZRq1388844023.jpg);
 }
 header{
@@ -64,7 +65,7 @@ footer.sec2ar1footer {
 }
 footer.sec2ar2footer {
     height: 35px;
-    margin-top: 52px;
+    margin-top: -8px;
 }
 footer.sec2footer {
     margin-top: 9px;
@@ -72,6 +73,7 @@ footer.sec2footer {
 }
 p {
     background-color: floralwhite;
+    color: black;
 }
 
 p.sec2p1 {
@@ -124,6 +126,7 @@ aside {
     width: 35%;
     height: 85px;
     margin-top: 10px;
+    text-align: center;
 }
 #searchbox {
     background-color: #eaf8fc;
@@ -146,7 +149,6 @@ ul.ultop {
     margin-top: 15px;
     padding: 0;
     background-color: #1F7273;
-    font-family: "Trebuchet MS";
 }
 ul.ultop li {
     float: right;
@@ -171,7 +173,6 @@ ul.leftnav {
     padding: 0px;
     width: 100%;
     background-color: #1F7273;
-    font-family: "Trebuchet MS";
 }
 
 li a {
